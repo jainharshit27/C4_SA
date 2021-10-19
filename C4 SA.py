@@ -38,6 +38,10 @@ while True:
     pygame.draw.rect(screen, (100, 100, 100), cactus_rect)
     pygame.draw.rect(screen, (100, 100, 100), ground_rect)
     
+    # Check for collision between dino_rect and cactus_rect using function colliderect()
+        # Delay the game by 2 seconds using pygame.time.delay()
+        # Quit the game
+    
     pygame.display.update()
     
     
